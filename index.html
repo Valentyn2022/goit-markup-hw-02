@@ -1,34 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Webstudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/main.css" />
   </head>
+
+  <!-- .body -->
+
   <body>
-    <header>
-      <nav>
-        <a href="/">WebStudio</a>
-        <ul>
-          <li><a href="/">Студия</a></li>
-          <li><a href="/">Портфолио</a></li>
-          <li><a href="/">Контакты</a></li>
+    <!--Header-->
+    <header class="header">
+      <a href="./index.html" class="link logo"
+        ><span class="logo-title">Web</span>Studio</a
+      >
+
+      <nav class="header-nav">
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="link header-link current" href="">Студия</a>
+          </li>
+          <li class="header-item">
+            <a class="link header-link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="header-item">
+            <a class="link header-link" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="+380961111111">+380961111111</a></li>
+
+      <ul class="header-address list">
+        <li class="header-item">
+          <a class="link header-email" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-item">
+          <a class="link header-phone" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
-      <div>
-        <section>
+      <!-- hero -->
+
+      <section>
+        <div>
           <h1>Эффективные решения для вашего бизнеса</h1>
           <button type="button">заказать услугу</button>
-        </section>
-      </div>
+        </div>
+      </section>
+
+      <!-- about -->
+
       <section>
         <ul>
           <li>
@@ -62,6 +96,8 @@
         </ul>
       </section>
 
+      <!-- section info -->
+
       <section>
         <div>
           <h2>Чем мы занимаемся</h2>
@@ -84,6 +120,8 @@
           </ul>
         </div>
       </section>
+
+      <!-- section our comand -->
 
       <section>
         <h2>Наша команда</h2>
@@ -119,6 +157,9 @@
         </ul>
       </section>
     </main>
+
+    <!-- .footer -->
+
     <footer>
       <a href="/">WebStudio</a>
       <address>
