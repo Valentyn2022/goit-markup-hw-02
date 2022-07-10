@@ -22,6 +22,8 @@ body {
     text-decoration: none;
 }
 
+/* =============header================= */
+
 .logo {
     color: var(--secondary-color);
     font-family: Raleway, sans-serif;
@@ -71,4 +73,80 @@ body {
 .header-phone:hover,
 .header-phone:focus {
     color: var(--accent-color);
+}
+
+/* =================hero============= */
+
+.hero {
+    background-color: var(--accent-background-color);
+}
+
+.hero-title {
+    color: var(--main-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    color: var(--main-color);
+    font-family: inherit;
+    background-color: var(--accent-color);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+/* ============description============== */
+
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.feature-description {
+    color: var(--secondary-text-coor);
+    font-size: 14px;
+    line-height: 1.72;
+    letter-spacing: 0.03em;
+}
+
+/* ==============info===================== */
+
+
+.info-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* =================team============== */
+
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-description {
+    color: var(--secondary-text-coor);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
