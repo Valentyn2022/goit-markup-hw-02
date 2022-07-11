@@ -6,7 +6,7 @@
     --main-color: #ffffff;
     --secondary-color: #000000;
     --secondary-bg-color: #f5f4fa;
-    --accent-background-color: #2f303a
+    --accent-background-color: #2f303a;
 }
 
 body {
@@ -150,3 +150,101 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+/* ==============footer================ */
+
+.footer {
+    background-color: var(--accent-background-color);
+}
+
+.footer-logo {
+    color: var(--main-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo-title {
+    color: var(--accent-color);
+}
+
+.footer-list {
+    font-style: normal;
+}
+
+.footer-link {
+    color: var(--main-color);
+    font-size: 14px;
+    line-height: 1.72;
+    letter-spacing: 0.03em;
+}
+
+.footer-mail,
+.footer-phone {
+    color: var(--address-text-color);
+    font-size: 14px;
+    line-height: 1.72;
+    letter-spacing: 0.03em;
+}
+
+.footer-link:hover,
+.footer-link:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone:hover,
+.footer-phone:focus {
+    color: var(--accent-color);
+}
+
+/*     ======  portfolio  =======      */
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+.portfolio-btn {
+    color: var(--secondary-color);
+    background-color: var(--secondary-bg-color);
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-desc {
+    color: var(--secondary-text-coor);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
