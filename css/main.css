@@ -6,7 +6,7 @@
     --main-color: #ffffff;
     --secondary-color: #000000;
     --secondary-bg-color: #f5f4fa;
-    --accent-background-color: #2f303a
+    --accent-background-color: #2f303a;
 }
 
 body {
@@ -54,7 +54,7 @@ body {
 }
 
 .header-email {
-    color: var(--primary-text-color);
+    color: var(--secondary-text-coor);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -67,7 +67,7 @@ body {
 }
 
 .header-phone {
-    color: var(--primary-text-color);
+    color: var(--secondary-text-coor);
 }
 
 .header-phone:hover,
@@ -136,6 +136,7 @@ body {
 
 
 .team-subtitle {
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -216,7 +217,7 @@ body {
 
 
 .portfolio-btn {
-    color: var(--secondary-color);
+    color: var(--primary-text-color);
     background-color: var(--secondary-bg-color);
     font-family: inherit;
     border: none;
